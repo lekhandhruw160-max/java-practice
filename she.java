@@ -1,12 +1,17 @@
-
+import java.util.*;
 public class she {
     public static void main(String[] args) {
-        System.out.print("lekhan");
-        int num = 34;
-        String name = "shankar ";
-
-        System.out.println(num);
+        Scanner sc = new Scanner(System.in);
+        String name = sc.next();
+        int num = sc.nextInt();
+        int num2 = sc.nextInt();
         System.out.println(name);
+        System.out.println(num);
+        System.out.println(num2);
+        
+
+
     }
     
 }
+
