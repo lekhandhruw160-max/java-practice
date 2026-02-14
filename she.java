@@ -1,20 +1,19 @@
-import java.util.Scanner;
-
-public class she {
-
-public static void main(String[] args) {
+import java.util.*;
+public class she{
+    public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        String name = sc.next();
-        int a = sc.nextInt();
-        
-        if ( a >= 18 ){
-            System.out.println(name +   "you are eligibel for drive ");
+        int n = sc.nextInt( );
+        if ( n >= 1){
+            System.out.println(n + "Positive number ");
         }
-        else{
-            System.out.println(name +   "you are not eligibel for drive ");
+        else if ( n < 0){
+            System.out.println(n +"negative number ");
         }
-}
+        else if (n == 0){
+            System.out.println(n + "zero number");
+        }
 
+    }
 }
 
 
